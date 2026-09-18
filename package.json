@@ -1,0 +1,27 @@
+{
+  "name": "devshowcase-api",
+  "version": "1.0.0",
+  "description": "API REST para perfis, projetos, tecnologias e feedbacks.",
+  "main": "index.js",
+  "scripts": {
+  "start": "node server.js"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evand-araujo/devshowcase-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/evand-araujo/devshowcase-api/issues"
+  },
+  "homepage": "https://github.com/evand-araujo/devshowcase-api#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "express-validator": "^7.3.2",
+    "sequelize": "^6.37.8",
+    "sqlite3": "^6.0.1"
+  }
+}
